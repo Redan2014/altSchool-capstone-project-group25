@@ -38,7 +38,7 @@ Jenkins is a popular open-source automation server that supports building, testi
 - Monitoring: Prometheus
 Prometheus is designed to handle high-scale monitoring environments and also integrates with service discovery mechanisms, thereby enabling automatic discovery and monitoring of new instances as the infrastructure platforms we are using are scaled up or down. Prometheus was also implemented to carry out monitoring and real-time evaluation of metrics, logs and notifications from the web app.
 
-- logging: Grafana
+- logging: Grafana<br>
 Grafana works seamlessly with Prometheus to allow us to implement interactive and customizable visual representations of metrics and logs, making it easier to understand and analyze the system's behaviour.
 
 ## Project Architectural Diagram
