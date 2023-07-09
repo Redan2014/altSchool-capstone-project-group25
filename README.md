@@ -1,61 +1,42 @@
-## AltSchool Africa School of Cloud Engineering Capstone Project; Group 25
+# AltSchool Africa School of Cloud Engineering Capstone Project; Group 25
 
-Assume a role as part of the DevOps/Cloud/Infra team in a startup and are required to advise on the implementation of the startup's entire infrastructure. Things to consider:
+## Project Title; A Food Delivery Web Application
+The project we worked on was deploying and maintaining a react-js-food-delivery web application.
 
-- Security is paramount, so whatever decision you are making, you have to consider the security implications.
+The link to the source code for the web application can be found at: https://github.com/fahadahmed07/react-js-quick-food-delivery-website
 
-- Cost savings is critical, remember this is a startup without funding yet, so ensuring your implementation should be cost-effective.
+Our project aims to deploy a cutting-edge React.js food delivery web application that will revolutionise how people experience food delivery. With a focus on seamless user experience, robust features, and efficient delivery logistics, the application will connect hungry customers with their favourite restaurants, providing a delightful and convenient dining experience.
 
-- The whole infrastructure should be documented and reproducible using Infrastructure as code. I.e. If the need arises that the company needs to start all over, it should be possible with minimal effort
+## Key Features and Benefits of our web app:
+- User-friendly Interface: The React.js application will provide an intuitive and visually appealing interface.
+- Extensive Meal Selection: The application will offer a wide range of meal options, catering to various cuisines and dietary preferences. 
+- Efficient Order Management: With the application, users will have complete control over their orders, including customization options, real-time tracking, and delivery notifications. 
+- Easy accessibility: Distribution over auto-scaled web servers to allow for easier handling of traffic from customers.
 
-- Fast response time, your infrastructure should be built to be performant & scalable to accommodate growth
+## Deployment Process
+To deploy the React.js food delivery web application, we leveraged cloud infrastructure services for scalability, availability, and cost-effectiveness. We will utilize the following services and technologies for this project.
 
-- Implement relevant regulatory & privacy requirements.
+- We will be using AWS for its wide range of services and familiarity purposes of the platform. First and foremost, AWS offers an extensive range of services that align perfectly with our project requirements. With AWS, we have access to a comprehensive suite of cloud-based solutions, including compute resources, storage options, networking capabilities, security tools, and many more. 
 
+- Cost-effectiveness is also a crucial consideration for our startup. AWS offers flexible pricing models, allowing us to optimize costs based on our usage patterns and requirements. We leveraged features such as reserved instances, spot instances, and auto-scaling to control expenses while ensuring our infrastructure remains efficient and scalable.
 
+- By leveraging AWS, we took advantage of the global infrastructure, ensuring that the application can serve users from various regions with minimal latency and downtime. Finally, familiarity plays a significant role in our choice. Many members of our team already have experience working with AWS, which translates into a smoother transition and faster development process. This familiarity allows us to leverage our existing knowledge and skills, ensuring efficiency and reducing the learning curve associated with new platforms.
 
+## What services & technologies were implemented and why? 
+- Database: Amazon DynamoDB.
+We utilized Amazon DynamoDB as a cloud-based database service to store and manage the application's data securely. This service provides automated backups, high availability, and scalability.
 
+- Infrastructure as Code: Terraform
+We adopted Terraform for Infrastructure as Code (IaC) purposes as this allowed us to quickly provision and manage our cloud resources. This approach ensures reproducibility, scalability, and consistency. Terraform focuses on the infrastructure lifecycle (provisioning, updating, and destroying resources) or handling the initial infrastructure setup, such as creating VPCs, subnets, and instances.
 
-Your submission for this project should be in 2 parts:
+- Configuration Management: Ansible
+Ansible, which is also considered an IAC, was used for our configuration management. Ansible was used to take care of installing packages, configuring software, and deploying the application code.
 
-- A detailed implementation plan including:
+- CI/CD: Jenkins
+Jenkins is a popular open-source automation server that supports building, testing, and deploying software applications. It was used to implement continuous integration of the code and continuous delivery of the web app to the users
 
-    - Pitch/Executive summary of the project idea to show an understanding of the problem being solved.
+- Monitoring: Prometheus
+Prometheus is designed to handle high-scale monitoring environments and also integrates with service discovery mechanisms, thereby enabling automatic discovery and monitoring of new instances as the infrastructure platforms we are using are scaled up or down. Prometheus was also implemented to carry out monitoring and real-time evaluation of metrics, logs and notifications from the web-app.
 
-    - what service providers will you be using and why,
-
-    - what services & technologies will you implement and why. Pay close attention here, you need to be conscious of what you are choosing and defend your choice.
-
-    - Cost savings plan
-
-    - Security plan
-
-    - Architecture diagram
-
-- Infrastructure as code implementation using
-
-    - Terraform
-
-    - Infracost.io to show cost configuration changes before implementation
-
-    - CI implementation for continuous delivery of the entire infrastructure
-
-    - Ansible (where used)
-
-    - Kubernetes Manifests (where used)
-
-    - Any other configuration used.
-
-    - A sample application will be provided
-
-- 5 teams of at least 2 People each are required to implement the solution
-
-    - **CICD Team**: Responsible for DevSecOps strategy. The team is required to detail a deployment strategy for applications. The output of the team should include CICD configurations in the tool of choice and why the tool was chosen.
-
-    - **Infrastructure engineers**: Responsible for designing the core infrastructure. The team will create the terraform configuration
-
-    - **FinOps team**: Ensure cost savings from everything everyone else is implementing
-
-    - **Configuration management**: Responsible for Configuration management
-
-    - **SREs**: Responsible for the Site Reliability Strategy of the infrastructure
+- logging: Grafana
+Grafana works seamlessly with Prometheus to allow us to implement interactive and customizable visual representations of metrics and logs, making it easier to understand and analyze the system's behaviour.
