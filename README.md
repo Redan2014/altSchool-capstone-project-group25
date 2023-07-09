@@ -23,19 +23,19 @@ To deploy the React.js food delivery web application, we leveraged cloud infrast
 - By leveraging AWS, we took advantage of the global infrastructure, ensuring that the application can serve users from various regions with minimal latency and downtime. Finally, familiarity plays a significant role in our choice. Many members of our team already have experience working with AWS, which translates into a smoother transition and faster development process. This familiarity allows us to leverage our existing knowledge and skills, ensuring efficiency and reducing the learning curve associated with new platforms.
 
 ## What services & technologies were implemented and why? 
-- Database: Amazon DynamoDB.
+- Database: Amazon DynamoDB.<br>
 We utilized Amazon DynamoDB as a cloud-based database service to store and manage the application's data securely. This service provides automated backups, high availability, and scalability.
 
-- Infrastructure as Code: Terraform
+- Infrastructure as Code: Terraform<br>
 We adopted Terraform for Infrastructure as Code (IaC) purposes as this allowed us to quickly provision and manage our cloud resources. This approach ensures reproducibility, scalability, and consistency. Terraform focuses on the infrastructure lifecycle (provisioning, updating, and destroying resources) or handling the initial infrastructure setup, such as creating VPCs, subnets, and instances.
 
-- Configuration Management: Ansible
+- Configuration Management: Ansible<br>
 Ansible, which is also considered an IAC, was used for our configuration management. Ansible was used to take care of installing packages, configuring software, and deploying the application code.
 
-- CI/CD: Jenkins
+- CI/CD: Jenkins<br>
 Jenkins is a popular open-source automation server that supports building, testing, and deploying software applications. It was used to implement continuous integration of the code and continuous delivery of the web app to the users
 
-- Monitoring: Prometheus
+- Monitoring: Prometheus<br>
 Prometheus is designed to handle high-scale monitoring environments and also integrates with service discovery mechanisms, thereby enabling automatic discovery and monitoring of new instances as the infrastructure platforms we are using are scaled up or down. Prometheus was also implemented to carry out monitoring and real-time evaluation of metrics, logs and notifications from the web app.
 
 - logging: Grafana<br>
