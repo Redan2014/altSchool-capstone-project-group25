@@ -1,4 +1,4 @@
-## AltSchool Africa School of Cloud Engineering Capstone Project
+## AltSchool Africa School of Cloud Engineering Capstone Project; Group 25
 
 Assume a role as part of the DevOps/Cloud/Infra team in a startup and are required to advise on the implementation of the startup's entire infrastructure. Things to consider:
 
