@@ -36,7 +36,14 @@ Ansible, which is also considered an IAC, was used for our configuration managem
 Jenkins is a popular open-source automation server that supports building, testing, and deploying software applications. It was used to implement continuous integration of the code and continuous delivery of the web app to the users
 
 - Monitoring: Prometheus
-Prometheus is designed to handle high-scale monitoring environments and also integrates with service discovery mechanisms, thereby enabling automatic discovery and monitoring of new instances as the infrastructure platforms we are using are scaled up or down. Prometheus was also implemented to carry out monitoring and real-time evaluation of metrics, logs and notifications from the web-app.
+Prometheus is designed to handle high-scale monitoring environments and also integrates with service discovery mechanisms, thereby enabling automatic discovery and monitoring of new instances as the infrastructure platforms we are using are scaled up or down. Prometheus was also implemented to carry out monitoring and real-time evaluation of metrics, logs and notifications from the web app.
 
 - logging: Grafana
 Grafana works seamlessly with Prometheus to allow us to implement interactive and customizable visual representations of metrics and logs, making it easier to understand and analyze the system's behaviour.
+
+## Project Architectural Diagram
+
+The Architectural diagram for this project was done using a Lucid chart.
+
+![Architectural diagram for Capstone Project](https://lucid.app/lucidchart/2b125c3e-3f11-432c-bfa7-683209e47531/edit?beaconFlowId=8582A18E13D988CC&invitationId=inv_055b4180-f0bc-4af6-94c8-22707278e133&page=0_0#)
+
