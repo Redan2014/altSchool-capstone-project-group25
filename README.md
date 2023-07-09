@@ -45,5 +45,5 @@ Grafana works seamlessly with Prometheus to allow us to implement interactive an
 
 The Architectural diagram for this project was done using a Lucid chart.
 
-![Architectural diagram for Capstone Project](https://lucid.app/lucidchart/2b125c3e-3f11-432c-bfa7-683209e47531/edit?beaconFlowId=8582A18E13D988CC&invitationId=inv_055b4180-f0bc-4af6-94c8-22707278e133&page=0_0#)
+![Architectural diagram for Capstone Project](https://lucid.app/documents/embedded/2b125c3e-3f11-432c-bfa7-683209e47531#)
 
