@@ -1,6 +1,6 @@
 # AltSchool Africa School of Cloud Engineering Capstone Project; Group 25
 
-## Project Title; A Food Delivery Web Application
+## Project Title: A Food Delivery Web Application
 The project we worked on was deploying and maintaining a react-js-food-delivery web application.
 
 The link to the source code for the web application can be found at: https://github.com/fahadahmed07/react-js-quick-food-delivery-website
